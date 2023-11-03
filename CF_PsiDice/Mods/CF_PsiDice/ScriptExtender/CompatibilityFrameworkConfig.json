@@ -1,0 +1,174 @@
+{
+  "FileVersion": 1,
+  "Progressions": [
+    {
+      "Comment": "RoguesExtra - Level 3 PsionicEnergyDice",
+      "UUID": "97c5668a-a03f-432d-b636-d07f8bf0be4d",
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+          "Items": [
+            "ActionResource(PsionicEnergy,4,0)"
+          ]
+        },
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+          "Items": [
+            "ActionResource(CL_PsionicEnergyDice,4,0)"
+          ]
+        }
+      ]
+    },
+    {
+      "Comment": "RoguesExtra - Level 3 PsionicEnergyDice",
+      "UUIDs": [
+        "70adc971-506e-42b9-a767-a7d53a28f07b",
+        "4c49b167-0c5b-4375-8375-d1c25e16f311"
+      ],
+      "Strings": [
+        {
+          "Action": "Remove",
+          "Type": "Boosts",
+          "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+          "Items": [
+            "ActionResource(CL_PsionicEnergyDice,2,0)"
+          ]
+        },
+        {
+          "Action": "Insert",
+          "Type": "Boosts",
+          "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+          "Items": [
+            "ActionResource(CL_PsionicEnergyDice,2,0)"
+          ]
+        }
+      ]
+    }
+  ],
+  "Spells": [
+    {
+      "ID": "Projectile_SoulBlades_Teleport",
+      "Action": "Remove",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "UseCosts": [
+        "PsionicEnergy:1"
+      ]
+    },
+    {
+      "ID": "Projectile_SoulBlades_Teleport",
+      "Action": "Insert",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "UseCosts": [
+        "CL_PsionicEnergyDice:1"
+      ]
+    },
+    {
+      "ID": "Shout_PsionicEnergyRecovery",
+      "Action": "Remove",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "SpellProperties": [
+        "RestoreResource(PsionicEnergy,1,0)"
+      ]
+    },
+    {
+      "ID": "Shout_PsionicEnergyRecovery",
+      "Action": "Insert",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "SpellProperties": [
+        "RestoreResource(CL_PsionicEnergyDice,1,0)"
+      ]
+    },
+    {
+      "ID": "Shout_Psi_Bolstered_Knack",
+      "Action": "Remove",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "UseCosts": [
+        "PsionicEnergy:1"
+      ]
+    },
+    {
+      "ID": "Shout_Psi_Bolstered_Knack",
+      "Action": "Insert",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "UseCosts": [
+        "CL_PsionicEnergyDice:1"
+      ]
+    },
+    {
+      "ID": "Shout_Psychic_Veil_Psi",
+      "Action": "Remove",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "UseCosts": [
+        "PsionicEnergy:1"
+      ]
+    },
+    {
+      "ID": "Shout_Psychic_Veil_Psi",
+      "Action": "Insert",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "UseCosts": [
+        "CL_PsionicEnergyDice:1"
+      ]
+    },
+    {
+      "ID": "Interupt_HomingStrike",
+      "Action": "Remove",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "Cost": [
+        "PsionicEnergy:1"
+      ]
+    },
+    {
+      "ID": "Interupt_HomingStrike",
+      "Action": "Insert",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "Cost": [
+        "CL_PsionicEnergyDice:1"
+      ]
+    },
+    {
+      "ID": "Target_Rend_Mind_PsionicsDie",
+      "Action": "Remove",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "UseCosts": [
+        "PsionicEnergy:3"
+      ]
+    },
+    {
+      "ID": "Target_Rend_Mind_PsionicsDie",
+      "Action": "Insert",
+      "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+      "UseCosts": [
+        "CL_PsionicEnergyDice:3"
+      ]
+    },
+    {
+      "ID": "PsiDieResource",
+      "Action": "Remove",
+      "modGuid": "744ab9dc-35c6-4949-836c-2a19a64d2469",
+      "UseCosts": [
+        "IF(ConditionResult(context.Source.ProficiencyBonus == 2)):ActionResource(PsionicDie,4,0)",
+        "IF(ConditionResult(context.Source.ProficiencyBonus == 3)):ActionResource(PsionicDie,6,0)",
+        "IF(ConditionResult(context.Source.ProficiencyBonus == 4)):ActionResource(PsionicDie,8,0)",
+        "IF(ConditionResult(context.Source.ProficiencyBonus == 5)):ActionResource(PsionicDie,10,0)",
+        "IF(ConditionResult(context.Source.ProficiencyBonus == 6)):ActionResource(PsionicDie,12,0)"
+      ]
+    },
+    {
+      "ID": "PsiDieResource",
+      "Action": "Insert",
+      "modGuid": "744ab9dc-35c6-4949-836c-2a19a64d2469",
+      "UseCosts": [
+        "IF(ConditionResult(context.Source.ProficiencyBonus == 2)):ActionResource(CL_PsionicEnergyDice,4,0)",
+        "IF(ConditionResult(context.Source.ProficiencyBonus == 3)):ActionResource(CL_PsionicEnergyDice,6,0)",
+        "IF(ConditionResult(context.Source.ProficiencyBonus == 4)):ActionResource(CL_PsionicEnergyDice,8,0)",
+        "IF(ConditionResult(context.Source.ProficiencyBonus == 5)):ActionResource(CL_PsionicEnergyDice,10,0)",
+        "IF(ConditionResult(context.Source.ProficiencyBonus == 6)):ActionResource(CL_PsionicEnergyDice,12,0)"
+      ]
+    }
+  ]
+}
