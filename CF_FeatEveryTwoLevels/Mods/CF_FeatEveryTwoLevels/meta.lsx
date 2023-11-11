@@ -15,17 +15,17 @@
           <attribute id="MD5" type="LSString" value=""/>
           <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
           <attribute id="MenuLevelName" type="FixedString" value=""/>
-          <attribute id="Name" type="FixedString" value="CF_FeatEveryThreeLevels"/>
+          <attribute id="Name" type="FixedString" value="CF_FeatEveryTwoLevels"/>
           <attribute id="NumPlayers" type="uint8" value="4"/>
           <attribute id="PhotoBooth" type="FixedString" value=""/>
           <attribute id="StartupLevelName" type="FixedString" value=""/>
           <attribute id="Tags" type="LSWString" value="Template"/>
           <attribute id="Type" type="FixedString" value="Patch"/>
           <attribute id="UUID" type="FixedString" value="f02131e2-3701-4c36-96de-452a5e7931de"/>
-          <attribute id="Version64" type="int64" value="36028797018963968"/>
+          <attribute id="Version64" type="int64" value="36028799166447616"/>
           <children>
             <node id="PublishVersion">
-                <attribute id="Version64" type="int64" value="36028797018963968"/>
+                <attribute id="Version64" type="int64" value="36028799166447616"/>
             </node>
             <node id="Scripts" />
             <node id="TargetModes">
