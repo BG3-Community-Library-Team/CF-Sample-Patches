@@ -9,13 +9,13 @@
           <attribute id="Author" type="LSWString" value="NellsRelo"/>
           <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
           <attribute id="Description" type="LSWString" value="Compatibility Framework based patch to provide a Feat at level 2"/>
-          <attribute id="Folder" type="LSWString" value="CF_FeatEveryTwoLevels"/>
+          <attribute id="Folder" type="LSWString" value="CF_FeatAtLevelTwo"/>
           <attribute id="GMTemplate" type="FixedString" value=""/>
           <attribute id="LobbyLevelName" type="FixedString" value=""/>
           <attribute id="MD5" type="LSString" value=""/>
           <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
           <attribute id="MenuLevelName" type="FixedString" value=""/>
-          <attribute id="Name" type="FixedString" value="CF_FeatEveryTwoLevels"/>
+          <attribute id="Name" type="FixedString" value="CF_FeatAtLevelTwo"/>
           <attribute id="NumPlayers" type="uint8" value="4"/>
           <attribute id="PhotoBooth" type="FixedString" value=""/>
           <attribute id="StartupLevelName" type="FixedString" value=""/>
