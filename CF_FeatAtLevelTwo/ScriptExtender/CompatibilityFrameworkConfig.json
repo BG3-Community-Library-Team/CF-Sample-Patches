@@ -1,0 +1,66 @@
+{
+  "FileVersion": 1,
+  "Progressions": [
+    {
+      "UUIDs": [
+        "89986e8a-09b1-4163-b1d0-ddb2332bf3c5",
+        "7a2f66b5-7555-49f2-833b-f3d79affc7ca",
+        "ef18265f-dda6-4eb6-8dd0-b14c57202c33",
+        "95322dde-349a-4101-964f-9aa46abd890b",
+        "aafbbc41-16e8-4296-a283-a2c5fdd0625b",
+        "d6c11773-888b-47a3-9dfa-e247bcbd461a",
+        "b9c3b0e1-38e6-4383-90d5-cb7e65348474",
+        "35863719-e935-4757-a9f3-eb38a8cd8cb7",
+        "706a869d-7894-453d-b6ac-9428f617649c",
+        "4de835bb-b7d0-47d8-aaea-596b4204a32a",
+        "d6184c47-5b99-4e63-95ac-02f8ce4ccda1"
+      ],
+      "Booleans": [
+        {
+          "Key": "AllowImprovement",
+          "Value": true,
+          "Comment": "Add for Vanilla"
+        }
+      ]
+   },
+   {
+    "UUIDs": [
+      "6cd67b34-19af-438f-8e9f-dabc19beed3a"
+    ],
+    "Booleans": [
+      {
+        "Key": "AllowImprovement",
+        "Value": true,
+        "modGuid": "88fadf2c-152d-404e-b863-c12273559e1c",
+        "Comment": "Add for Artificer"
+      }
+    ]
+   },
+   {
+    "UUIDs": [
+      "9f32e526-efb6-42a3-8ecc-722cfd5b75b0"
+    ],
+    "Booleans": [
+      {
+        "Key": "AllowImprovement",
+        "Value": true,
+        "modGuid": "411d5c6e-2bd5-4e4e-ab72-67dcc37b8c0e",
+        "Comment": "Add for Blood Hunter"
+      }
+    ]
+   },
+   {
+    "UUIDs": [
+      "5689bf11-685d-41c8-ae14-3385e9434949"
+    ],
+    "Booleans": [
+      {
+        "Key": "AllowImprovement",
+        "Value": true,
+        "modGuid": "b2ac3aa8-ce29-4d53-be47-7121845f3c1c",
+        "Comment": "Add for Mystic"
+      }
+    ]
+   }
+  ]
+}

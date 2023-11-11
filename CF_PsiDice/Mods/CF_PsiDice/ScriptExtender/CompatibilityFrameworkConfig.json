@@ -9,7 +9,7 @@
           "Action": "Remove",
           "Type": "Boosts",
           "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
-          "Items": [
+          "Strings": [
             "ActionResource(PsionicEnergy,4,0)"
           ]
         },
@@ -17,7 +17,7 @@
           "Action": "Insert",
           "Type": "Boosts",
           "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
-          "Items": [
+          "Strings": [
             "ActionResource(CL_PsionicEnergyDice,4,0)"
           ]
         }
@@ -34,7 +34,7 @@
           "Action": "Remove",
           "Type": "Boosts",
           "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
-          "Items": [
+          "Strings": [
             "ActionResource(CL_PsionicEnergyDice,2,0)"
           ]
         },
@@ -42,7 +42,7 @@
           "Action": "Insert",
           "Type": "Boosts",
           "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
-          "Items": [
+          "Strings": [
             "ActionResource(CL_PsionicEnergyDice,2,0)"
           ]
         }
